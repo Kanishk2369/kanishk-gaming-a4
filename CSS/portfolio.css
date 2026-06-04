@@ -1,0 +1,225 @@
+/* Reset default spacing so everything starts clean */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Main body styling */
+body {
+    background-color: #0d0d0d; /* dark theme */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6; /* makes text easier to read */
+    padding: 10px;
+
+    max-width: 1200px; /* keeps content in center */
+    margin: auto;
+}
+
+/* Navigation bar */
+.nav {
+    background-color: #1a1a1a;
+    text-align: center;
+    padding: 12px;
+    margin-bottom: 15px;
+}
+
+/* Styling links as buttons */
+.nav a {
+    display: inline-block;
+
+    padding: 8px 14px; /* slightly smaller so all buttons fit */
+
+    margin: 4px;
+
+    background-color: #00ffcc;
+
+    color: black;
+
+    text-decoration: none;
+
+    border-radius: 5px;
+
+    font-weight: bold;
+
+    font-size: 18px;
+}
+
+/* Hover effect for buttons */
+.nav a:hover {
+    background-color: #ff6600;
+    color: white;
+}
+
+/* Headings spacing */
+h1 {
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+/* Paragraph spacing */
+p {
+    margin-bottom: 10px;
+}
+
+/* Unordered list */
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+/* Ordered list */
+ol {
+    list-style-type: upper-roman;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+/* Different text alignments */
+.left {
+    text-align: left;
+    color: #ffffff;
+    font-style: italic;
+}
+
+.center {
+    text-align: center;
+    color: #00ffff;
+    font-weight: bold;
+}
+
+.right {
+    text-align: right;
+    color: #ffcc00;
+}
+
+/* Highlight text */
+.highlight {
+    color: #ff33cc;
+    font-weight: bold;
+}
+
+/* ID example */
+#special {
+    color: red;
+    font-style: italic;
+}
+
+/* Content box styling */
+.content {
+    background-color: #1a1a1a;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+
+/* Span styling */
+span {
+    font-weight: bold;
+    color: #00ff00;
+}
+
+/* Image styling */
+img {
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+/* Table styling */
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ccc; /* light border */
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #00ffcc;
+    color: black;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #1a1a1a;
+    color: #cccccc;
+    margin-top: 20px;
+}
+
+/* Print version of website */
+@media print {
+    body {
+        background-color: white;
+        color: black;
+        font-size: 18px;
+    }
+
+    .nav {
+        display: none; /* hide menu when printing */
+    }
+
+    a {
+        color: black;
+        text-decoration: none;
+    }
+
+    img {
+        display: none; /* remove images in print */
+    }
+}
+
+/* Newsletter form styling */
+
+input,
+textarea {
+
+padding: 8px;
+
+margin-top: 5px;
+
+margin-bottom: 10px;
+
+width: 60%;
+
+border-radius: 5px;
+
+border: none;
+
+}
+
+
+input[type="submit"],
+input[type="reset"] {
+
+width: auto;
+
+padding: 10px 15px;
+
+background-color: #00ffcc;
+
+font-weight: bold;
+
+cursor: pointer;
+
+}
+
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+
+background-color: #ff6600;
+
+color: white;
+
+}
